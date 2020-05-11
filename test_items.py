@@ -7,7 +7,7 @@ def test_see_add_basket_button(browser):
     browser.get(link)
     browser.implicitly_wait(5)
     #time.sleep(30)
-    add_basket_btn = browser.find_elements_by_css_selector(".btn-add-to-basketw")
+    add_basket_btn = browser.find_elements_by_css_selector(".btn-add-to-basket")
     assert add_basket_btn, "Button not found!"
 
     #assert #2
